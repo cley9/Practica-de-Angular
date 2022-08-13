@@ -1,0 +1,12 @@
+<p>{{nombre}}</p>
+<p>{{nombre.toUpperCase()}}</p>
+<p>{{getProfesion()}}</p>
+<hr>
+<p *ngFor="let movie of movies">{{movie}}</p>
+<hr>
+<p *ngFor="let song of songs">{{song.top |json}}</p>
+<input type="text" [(ngModel)]="date" name="" id="">
+<hr>
+<button (click)="addPelicula()">add</button>
+<!-- <p *ngFor="let pelicu of pelicula">{{pelicu |json}}</p> -->
+
